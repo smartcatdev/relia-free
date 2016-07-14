@@ -38,7 +38,7 @@ $wp_customize->add_panel( 'relia_homepage_panel', array (
 // ---------------------------------------------
 $wp_customize->add_section( 'relia_features_section', array(
     'title'                 => __( 'Feature List CTAs', 'relia' ),
-    'description'           => __( 'Customize the 6 CTAs that appear in the Features section', 'relia' ),
+    'description'           => __( 'Customize the 3 icons CTAs that appear in the Features section', 'relia' ),
     'panel'                 => 'relia_homepage_panel'
 ) );
 

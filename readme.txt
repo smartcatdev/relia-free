@@ -4,8 +4,8 @@ Contributors: smartcat
 Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-colors, custom-menu, featured-images, theme-options, translation-ready, blog, e-commerce, entertainment, news, photography, portfolio
 
 Requires at least: 4.5
-Tested up to: 4.5.2
-Stable tag: 1.0.6
+Tested up to: 4.5.3
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,9 @@ relia includes support for Infinite Scroll in Jetpack, as well as Our Team Showc
 = 1.0.6 - July 12 2016 =
 * Update Screenshot
 
+= 1.0.7 - July 13 2016 =
+* Bug fix relating to older versions of PHP
+* users can now hide the Jumbotron buttons by keeping the textbox empty
 
 == Credits ==
 
