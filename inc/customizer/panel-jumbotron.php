@@ -109,7 +109,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     
     // Slider Darkness Tint
     $wp_customize->add_setting( 'relia_slider_dark_tint', array (
-        'default'               => .75,
+        'default'               => .5,
         'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_decimal',
     ) );
@@ -127,7 +127,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Heading Text
     $wp_customize->add_setting( 'relia_jumbotron_heading', array (
         'default'               => __( 'Featured Product', 'relia' ),
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_text',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_heading', array(
@@ -139,7 +139,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Heading Font Size
     $wp_customize->add_setting( 'relia_jumbotron_heading_size', array (
         'default'               => 50,
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_text',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_heading_size', array(
@@ -156,7 +156,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Button 1 - Text 
     $wp_customize->add_setting( 'relia_jumbotron_button_1_text', array (
         'default'               => __( 'View Collection', 'relia' ),
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_text',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_button_1_text', array(
@@ -181,7 +181,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Button 1 - External URL
     $wp_customize->add_setting( 'relia_jumbotron_button_1_url', array (
         'default'               => null,
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'esc_url_raw',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_button_1_url', array(
@@ -194,7 +194,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Button 2 - Text 
     $wp_customize->add_setting( 'relia_jumbotron_button_2_text', array (
         'default'               => __( 'Back Us On Kickstarter', 'relia' ),
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_text',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_button_2_text', array(
@@ -219,7 +219,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Button 2 - External URL
     $wp_customize->add_setting( 'relia_jumbotron_button_2_url', array (
         'default'               => null,
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'esc_url_raw',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_button_2_url', array(
@@ -232,7 +232,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     // Jumbotron Button Font Size
     $wp_customize->add_setting( 'relia_jumbotron_button_size', array (
         'default'               => 14,
-        'transport'             => 'postMessage',
+        'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_integer',
     ) );
     $wp_customize->add_control( 'relia_jumbotron_button_size', array(

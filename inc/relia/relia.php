@@ -199,9 +199,11 @@ function relia_render_jumbotron(){
                                     
                                         <h2 class="wow fadeInDown"><?php echo esc_attr( get_theme_mod( 'relia_jumbotron_heading', __( 'Featured Product', 'relia' ) ) ); ?></h2>
                                         <div class="big-hero-buttons wow fadeInUp">
-
+                                            
+                                            
+                                            <?php if( get_theme_mod( 'relia_jumbotron_button_1_text', __( 'View Collection', 'relia' ) ) ) : ?>
                                             <a href="
-                                                <?php if ( empty( get_theme_mod( 'relia_jumbotron_button_1_url', null ) ) ) : ?>
+                                                <?php if ( get_theme_mod( 'relia_jumbotron_button_1_url', null ) == false ) : ?>
                                                     <?php echo get_theme_mod( 'relia_jumbotron_button_1_internal', null ) == null ? '#' : esc_url( get_permalink( get_theme_mod( 'relia_jumbotron_button_1_internal', null ) ) ); ?>
                                                 <?php else : ?>
                                                     <?php echo get_theme_mod( 'relia_jumbotron_button_1_url', null ) == null ? '#' : esc_url( get_theme_mod( 'relia_jumbotron_button_1_url', null ) ); ?>
@@ -211,9 +213,11 @@ function relia_render_jumbotron(){
                                                     <?php echo esc_html( get_theme_mod( 'relia_jumbotron_button_1_text', __( 'View Collection', 'relia' ) ) ); ?>
                                                 </button>
                                             </a>
-
+                                            <?php endif; ?>
+                                            
+                                            <?php if( get_theme_mod( 'relia_jumbotron_button_2_text', __( 'View Collection', 'relia' ) ) ) : ?>
                                             <a href="
-                                                <?php if ( empty( get_theme_mod( 'relia_jumbotron_button_2_url', null ) ) ) : ?>
+                                                <?php if ( get_theme_mod( 'relia_jumbotron_button_2_url', null ) == false ) : ?>
                                                     <?php echo get_theme_mod( 'relia_jumbotron_button_2_internal', null ) == null ? '#' : esc_url( get_permalink( get_theme_mod( 'relia_jumbotron_button_2_internal', null ) ) ); ?>
                                                 <?php else : ?>
                                                     <?php echo get_theme_mod( 'relia_jumbotron_button_2_url', null ) == null ? '#' : esc_url( get_theme_mod( 'relia_jumbotron_button_2_url', null ) ); ?>
@@ -223,6 +227,7 @@ function relia_render_jumbotron(){
                                                     <?php echo esc_attr( get_theme_mod( 'relia_jumbotron_button_2_text', __( 'Back Us On Kickstarter', 'relia' ) ) ); ?>
                                                 </button>
                                             </a>
+                                            <?php endif; ?>
 
                                         </div>
 
@@ -583,7 +588,7 @@ function relia_custom_css() { ?>
 
         div#slider-content-overlay,
         div.col-md-12.hero-banner .hero-overlay {
-            background-color: rgba(0,0,0,<?php echo esc_attr( get_theme_mod( 'relia_slider_dark_tint', .75 ) ); ?>);
+            background-color: rgba(0,0,0,<?php echo esc_attr( get_theme_mod( 'relia_slider_dark_tint', .5 ) ); ?>);
         }
 
         div.hero-overlay h2,
