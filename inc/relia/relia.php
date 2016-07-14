@@ -588,7 +588,7 @@ function relia_custom_css() { ?>
 
         div#slider-content-overlay,
         div.col-md-12.hero-banner .hero-overlay {
-            background-color: rgba(0,0,0,<?php echo esc_attr( get_theme_mod( 'relia_slider_dark_tint', .75 ) ); ?>);
+            background-color: rgba(0,0,0,<?php echo esc_attr( get_theme_mod( 'relia_slider_dark_tint', .5 ) ); ?>);
         }
 
         div.hero-overlay h2,

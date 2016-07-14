@@ -109,7 +109,7 @@ $wp_customize->add_section( 'relia_slide_settings_section', array (
     
     // Slider Darkness Tint
     $wp_customize->add_setting( 'relia_slider_dark_tint', array (
-        'default'               => .75,
+        'default'               => .5,
         'transport'             => 'refresh',
         'sanitize_callback'     => 'relia_sanitize_decimal',
     ) );
