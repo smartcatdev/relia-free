@@ -1508,6 +1508,13 @@ div.coupon input#coupon_code {
     background-color: #777;
 }
 
+.woocommerce div.product form.cart .variations label {
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+    padding-top: 10px;
+}
+
 /* --------------------------------------------------
 	SEARCH FORM
 -------------------------------------------------- */
