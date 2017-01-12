@@ -89,9 +89,9 @@
             
             <section id="search-background">
                 <div id="search-form" class="wow fadeInUp">
-
-                    <?php get_search_form(); ?>
-
+                    <div class="inner">
+                        <?php get_search_form(); ?>
+                    </div>
                 </div>
             </section>
             

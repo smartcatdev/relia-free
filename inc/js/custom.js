@@ -19,7 +19,7 @@ jQuery(function($) {
     });
 
     $( "#search-background" ).on( "click", function( e ) {
-        if ( $( e.target ).is('section')) {
+        if ( $( e.target ).is('section') || $( e.target ).is('div.inner') ) {
             $(this).fadeOut(300);
         }
     });
