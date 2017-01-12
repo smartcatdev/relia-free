@@ -36,7 +36,7 @@ endif;
 
             <div class="post-content">
                 <?php $content = get_the_content(); ?>
-                <?php echo wp_trim_words(strip_tags($content), 30); ?>
+                <?php echo wp_trim_words( strip_shortcodes( strip_tags( $content ) ), 30); ?>
             </div>
 
             <a class="blog-post-read-more" href="<?php echo esc_url( get_the_permalink( get_the_ID() ) ); ?>"><?php echo esc_html( get_theme_mod( 'relia_blog_read_more', __( 'Read More', 'relia' ) ) ); ?></a>

@@ -909,6 +909,7 @@ div.blog-post-image {
     bottom: 15px;
     padding: 10px 15px;
     text-align: right;
+    overflow: hidden;
 }
 
 @media (max-width: 767px) {
