@@ -337,8 +337,7 @@ function relia_render_footer() { ?>
         </div>
 
         <div class="site-info">
-            @ <?php echo esc_attr( get_theme_mod( 'relia_footer_copyright', __( 'Company Name', 'relia' )  ) ); ?>
-            <?php echo ' ' . date( 'Y' ); ?>
+            <?php echo get_theme_mod( 'relia_footer_copyright', __( '© Company Name', 'relia' ) ); ?>
         </div>
 
     </div>

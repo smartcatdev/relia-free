@@ -241,7 +241,7 @@
         // Footer Copyright
 	wp.customize( 'relia_footer_copyright', function( value ) {
 		value.bind( function( to ) {
-			$( 'footer.site-footer div.site-info' ).text( '@ ' + to + ' 2015' );
+			$( 'footer.site-footer div.site-info' ).text( to );
 		} );
 	} );
 
