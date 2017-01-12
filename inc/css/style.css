@@ -1472,6 +1472,18 @@ div.coupon input#coupon_code {
     padding-top: 10px;
 }
 
+.woocommerce-page ul.products li.product {
+    overflow: hidden;
+}
+
+@media (max-width: 599px) { 
+    .woocommerce-page ul.products li.product { 
+        width: 100%; 
+        margin-bottom: 15px;
+    } 
+}
+
+
 /* --------------------------------------------------
 	SEARCH FORM
 -------------------------------------------------- */
