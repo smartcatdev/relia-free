@@ -1256,6 +1256,14 @@ ul.products li.product h3 {
     color: #ccc;
 }
 
+.woocommerce ul.products li.product h2.woocommerce-loop-product__title {
+    font-size: 1.2em !important;
+    letter-spacing: .25em;
+    font-weight: 300;
+    padding: .5em 15px !important;
+    color: #ccc;
+}
+
 .woocommerce ul.products li.product .star-rating {
     margin-left: 15px;
 }
