@@ -220,14 +220,14 @@ $wp_customize->add_section( 'relia_footer_section', array(
     
     // Footer Copyright Text
     $wp_customize->add_setting( 'relia_footer_copyright', array (
-        'default'               => __( 'Company Name', 'relia' ),
+        'default'               => __( '© Company Name', 'relia' ),
         'transport'             => 'postMessage',
         'sanitize_callback'     => 'relia_sanitize_text',
     ) );
     $wp_customize->add_control( 'relia_footer_copyright', array(
         'type'                  => 'text',
         'section'               => 'relia_footer_section',
-        'label'                 => __( 'Company Name for Copyright', 'relia' ),
+        'label'                 => __( 'Footer Copyright or Tagline', 'relia' ),
     ) );
     
     // Social Icons - Include Facebook
