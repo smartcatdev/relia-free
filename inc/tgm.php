@@ -63,6 +63,11 @@ function relia_register_required_plugins() {
                 'name' => 'Our Team Showcase',
                 'slug' => 'our-team-enhanced',
                 'required' => false,
+            ),
+            array(
+                'name' => 'uCare – Support Ticket System',
+                'slug' => 'ucare-support-system',
+                'required' => false,
             )
         );
 
