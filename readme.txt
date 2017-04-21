@@ -3,8 +3,8 @@
 Contributors: smartcat
 Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-colors, custom-menu, featured-images, theme-options, translation-ready, blog, e-commerce, entertainment, news, photography, portfolio
 
-Requires at least: 4.5
-Tested up to: 4.5.3
+Requires at least: 4.6
+Tested up to: 4.7.4
 Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -68,7 +68,7 @@ relia includes support for Infinite Scroll in Jetpack, as well as Our Team Showc
 * Bug fix relating to older versions of PHP
 * users can now hide the Jumbotron buttons by keeping the textbox empty
 
-= 1.1.0 - July 13 2016 =
+= 1.1.0 - April 21 2017 =
 * Updates to woocommerce templates for Woo3.0 release
 
 == Credits ==
