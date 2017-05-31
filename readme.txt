@@ -71,7 +71,7 @@ relia includes support for Infinite Scroll in Jetpack, as well as Our Team Showc
 = 1.1.0 - April 21 2017 =
 * Updates to woocommerce templates for Woo3.0 release
 
-= 1.1.1 - April 21 2017 =
+= 1.1.1 - May 30 2017 =
 * Reinstate WooCommerce Gallery features by specifically adding declarations
 
 == Credits ==
