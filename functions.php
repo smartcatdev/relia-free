@@ -18,7 +18,7 @@ if ( ! function_exists( 'relia_setup' ) ) :
 function relia_setup() {
     
         if( !defined( 'RELIA_VERSION' ) ) :
-            define('RELIA_VERSION', '1.1.0');
+            define('RELIA_VERSION', '1.1.1');
         endif;
     
 	/*
@@ -82,6 +82,9 @@ function relia_setup() {
          * Enable support for WooCommerce plugin.
          */
         add_theme_support( 'woocommerce' );
+        add_theme_support( 'wc-product-gallery-zoom' );
+        add_theme_support( 'wc-product-gallery-lightbox' );
+        add_theme_support( 'wc-product-gallery-slider' );
         add_editor_style('');
 
         
