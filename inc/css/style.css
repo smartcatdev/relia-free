@@ -448,6 +448,22 @@ div.col-md-12.hero-banner {
     padding: 0px;
 }
 
+@media (min-width: 769px ) and (max-width: 991px ) {
+    
+    div.col-md-12.hero-banner{
+        height: 500px !important;
+    }
+    
+}
+
+@media (max-width: 768px ) {
+    
+    div.col-md-12.hero-banner{
+        height: 250px !important;
+    }
+    
+}
+
 div.col-md-12.hero-banner.slider {
     background-color: #000;
 
