@@ -476,6 +476,7 @@ function relia_custom_css() { ?>
         .woocommerce .woocommerce-message a.button,
         .woocommerce button.button,
         a.button.add_to_cart_button,
+        a.button.product_type_variable,
         li.product a.added_to_cart,
         ul.products li.product h3,
         aside.widget_search input.search-field,

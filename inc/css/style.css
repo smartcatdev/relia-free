@@ -1,6 +1,10 @@
 /* --------------------------------------------------
 	GLOBAL PAGE ELEMENTS
 -------------------------------------------------- */
+
+*, *:focus{
+    outline: none;
+}
 body {
     font-family: 'Open Sans', arial, sans-serif;
 }
@@ -1233,6 +1237,7 @@ body.woocommerce ul.products li.product a h2.woocommerce-loop-category__title {
 }
 
 a.button.add_to_cart_button,
+a.button.product_type_variable,
 li.product a.added_to_cart {
     background-color: #1c1c1c;
     padding: 10px 15px;
@@ -1246,7 +1251,8 @@ li.product a.added_to_cart {
     float: right;
 }
 
-a.button.add_to_cart_button:hover {
+a.button.add_to_cart_button:hover,
+a.button.product_type_variable:hover {
     background-color: #1c1c1c;
 }
 
@@ -1311,6 +1317,10 @@ li.product a.added_to_cart {
 .woocommerce .quantity .qty {
     padding: 6px 5px;
     text-align: right;
+}
+
+.woocommerce table.shop_attributes td{
+    padding: 8px;
 }
 
 div.panel.wc-tab h2, 

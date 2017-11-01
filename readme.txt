@@ -73,6 +73,8 @@ relia includes support for Infinite Scroll in Jetpack, as well as Our Team Showc
 
 = 1.1.1 - May 30 2017 =
 * Reinstate WooCommerce Gallery features by specifically adding declarations
+* WooCommerce fix for Cart URL
+
 
 == Credits ==
 

@@ -26,6 +26,7 @@ div.homepage-page-content div.pagination-links a,
 aside.widget table a,
 aside.widget ul li a,
 a.button.add_to_cart_button:hover,
+a.button.product_type_variable:hover,
 aside.widget.woocommerce a.button,
 .woocommerce .woocommerce-message a.button:hover,
 .woocommerce .woocommerce-message:before,
@@ -111,6 +112,7 @@ tt {
 aside.widget.woocommerce a.button,
 div#search-form form.search-form input[type="submit"]:hover,
 p.form-submit input:hover, 
+a.button.product_type_variable:hover,
 a.button.add_to_cart_button:hover {
     border-color: #c93838;
 }
