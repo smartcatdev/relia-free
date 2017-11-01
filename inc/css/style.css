@@ -459,7 +459,7 @@ div.col-md-12.hero-banner {
 @media (max-width: 768px ) {
     
     div.col-md-12.hero-banner{
-        height: 250px !important;
+        height: 300px !important;
     }
     
 }
@@ -520,11 +520,11 @@ div#slider-content-overlay h2 {
     }
     
     div.hero-overlay h2 {
-        padding-top: 100px !important;
+        /*padding-top: 100px !important;*/
     }
     
     div.hero-overlay h2 {    
-        font-size: 30px !important;
+        font-size: 24px !important;
     }
     
     div.big-hero-buttons button {
