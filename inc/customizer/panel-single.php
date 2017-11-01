@@ -1,22 +1,13 @@
 <?php
 
 // ---------------------------------------------
-// Single Post Panel
-// ---------------------------------------------
-$wp_customize->add_panel( 'relia_single_post_panel', array (
-    'title'                 => __( 'Single Post', 'relia' ),
-    'description'           => __( 'Customize the appearance of the Single Post', 'relia' ),
-    'priority'              => 10
-) );
-
-// ---------------------------------------------
-// Layout Section
+// Single Section
 // ---------------------------------------------
 
 $wp_customize->add_section( 'relia_single_post_layout_section', array (
-    'title'                 => __( 'Layout', 'relia' ),
+    'title'                 => __( 'Single Post', 'relia' ),
     'description'           => __( 'Customize the layout of your single post template', 'relia' ),
-    'panel'                 => 'relia_single_post_panel',
+    'priority'              => 10
 ) );
 
 // ---------------------------------------------

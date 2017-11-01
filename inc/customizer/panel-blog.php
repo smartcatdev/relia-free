@@ -1,22 +1,13 @@
 <?php
 
 // ---------------------------------------------
-// Blog Panel
-// ---------------------------------------------
-$wp_customize->add_panel( 'relia_blog_panel', array (
-    'title'                 => __( 'Blog', 'relia' ),
-    'description'           => __( 'Customize the appearance of the Blog', 'relia' ),
-    'priority'              => 10
-) );
-
-// ---------------------------------------------
-// Layout Section
+// Blog Section
 // ---------------------------------------------
 
 $wp_customize->add_section( 'relia_blog_layout_section', array (
-    'title'                 => __( 'Layout', 'relia' ),
+    'title'                 => __( 'Blog', 'relia' ),
     'description'           => __( 'Customize the layout of your blog template', 'relia' ),
-    'panel'                 => 'relia_blog_panel',
+    'priority'              => 10
 ) );
 
 // ---------------------------------------------
