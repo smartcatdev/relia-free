@@ -55,7 +55,7 @@
                                 <?php if( class_exists( 'WooCommerce' ) && get_theme_mod( 'relia_shopping_cart_toggle', 'show') == 'show' ) : ?>
 
                                     <?php if( WC()->cart->get_cart_contents_count() > 0 ) : ?>
-                                        <a class="relia-cart" href="<?php echo wc_get_cart_url() ; ?>">
+                                        <a class="relia-cart" href="<?php echo function_exists( 'wc_get_cart_url' ) ? wc_get_cart_url() : WC()->cart->get_cart_url(); ?>">
                                             <span class="cart-total"><?php _e( 'Items in Cart', 'relia' ); ?> : </span>
                                             <?php echo WC()->cart->get_cart_contents_count(); ?>
                                         </a>
@@ -65,7 +65,7 @@
                                         <i class="fa fa-search"></i>
                                     <?php endif; ?>
                                     
-                                    <a href="<?php echo wc_get_cart_url() ; ?>">
+                                    <a href="<?php echo function_exists( 'wc_get_cart_url' ) ? wc_get_cart_url() : WC()->cart->get_cart_url(); ?>">
                                         <i class="fa fa-shopping-cart"></i>
                                     </a>
                                     

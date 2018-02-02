@@ -4,8 +4,8 @@ Contributors: smartcat
 Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-colors, custom-menu, featured-images, theme-options, translation-ready, blog, e-commerce, entertainment, news, photography, portfolio
 
 Requires at least: 4.6
-Tested up to: 4.7.5
-Stable tag: 1.1.1
+Tested up to: 4.9.2
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,10 @@ relia includes support for Infinite Scroll in Jetpack, as well as Our Team Showc
 * Reinstate WooCommerce Gallery features by specifically adding declarations
 * WooCommerce fix for Cart URL
 
+= 1.1.2 - February 2 2018 =
+* Improved blog pagination and ensured it only shows when necessary
+* Fixed UI bug on WC shop pages that was displaying a count next to product categories
+* Added responsiveness font-size change to Jumbotron text on mobile devices
 
 == Credits ==
 
