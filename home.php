@@ -90,6 +90,22 @@ get_header();
                                 </div>
 
                             <?php endwhile; ?>
+                        
+                            <?php $paginate_links = paginate_links( array(
+                                'total' => $wp_query->max_num_pages,
+                            ) ); ?>
+                            
+                            <?php if ( $paginate_links ) : ?>
+                        
+                                <div class="col-sm-4">
+                                    <div>
+                                        <div class="pagination-links"> 
+                                            <?php echo $paginate_links; ?>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <?php endif; ?>
 
                         <?php else : ?>
 

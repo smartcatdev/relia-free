@@ -523,8 +523,9 @@ div#slider-content-overlay h2 {
         /*padding-top: 100px !important;*/
     }
     
-    div.hero-overlay h2 {    
-        font-size: 24px !important;
+    body div.hero-overlay h2, 
+    body div#slider-content-overlay h2 {
+        font-size: 28px;
     }
     
     div.big-hero-buttons button {
@@ -989,14 +990,17 @@ div.homepage-page-content header {
     color: #fff;
 }
 
+div.blog-index-content .row .row > div.col-sm-4,
 div.homepage-page-content > div.col-sm-4 {
     padding: 0 7.5px;
 }
 
+div.blog-index-content .row .row > div.col-sm-4 > div,
 div.homepage-page-content > div.col-sm-4 > div {
     height: 300px;
 }
 
+body.blog div.pagination-links,
 div.homepage-page-content div.pagination-links {
     background-color: #1c1c1c;
     color: #d9d9d9;
@@ -1010,17 +1014,21 @@ div.homepage-page-content div.pagination-links {
     text-align: center;
 }
 
+body.blog div.pagination-links span,
+body.blog div.pagination-links a,
 div.homepage-page-content div.pagination-links span,
 div.homepage-page-content div.pagination-links a {
     text-decoration: none;
     margin-left: 5px;
 }
 
-
+body.blog div.pagination-links a:hover,
 div.homepage-page-content div.pagination-links a:hover {
     color: #fff;
 }
 
+body.blog div.pagination-links a.next,
+body.blog div.pagination-links a.prev,
 div.homepage-page-content div.pagination-links a.next,
 div.homepage-page-content div.pagination-links a.prev {
 /*    display: block;*/
@@ -2125,4 +2133,12 @@ ul#relia-testimonials .testimonial-author {
 
 .search article span.comments-link {
     margin-right: 10px;
+}
+
+/* ----- WooCommerce Updates ----- */
+ul.products mark.count {
+    display: none;
+}
+body.woocommerce ul.products li.product a h2.woocommerce-loop-category__title {
+    margin-bottom: 1em;
 }

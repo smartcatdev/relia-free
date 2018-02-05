@@ -104,7 +104,8 @@ div.homepage-page-content > div.col-sm-4 > div,
 kbd, 
 code, 
 pre, 
-tt {
+tt,
+div.blog-index-content .row .row > div.col-sm-4 > div {
     border: thin solid #ca6;
 }
 

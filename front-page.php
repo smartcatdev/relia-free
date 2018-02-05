@@ -73,13 +73,23 @@ get_header();
                                     <?php echo $front == 'posts' ? '</div>' : ''; ?>
 
                                     <?php if ($front == 'posts') : ?>
-                                        <div class="col-sm-4">
-                                            <div>
-                                                <div class="pagination-links"> 
-                                                    <?php echo paginate_links(); ?>
+                                
+                                        <?php $paginate_links = paginate_links( array(
+                                            'total' => $wp_query->max_num_pages,
+                                        ) ); ?>
+
+                                        <?php if ( $paginate_links ) : ?>
+
+                                            <div class="col-sm-4">
+                                                <div>
+                                                    <div class="pagination-links"> 
+                                                        <?php echo $paginate_links; ?>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+
+                                        <?php endif; ?>
+                                
                                     <?php endif; ?>
 
                                 <?php else : ?>
