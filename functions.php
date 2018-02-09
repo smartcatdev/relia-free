@@ -18,7 +18,7 @@ if ( ! function_exists( 'relia_setup' ) ) :
 function relia_setup() {
     
         if( !defined( 'RELIA_VERSION' ) ) :
-            define('RELIA_VERSION', '1.1.2');
+            define('RELIA_VERSION', '1.2.0');
         endif;
     
 	/*
