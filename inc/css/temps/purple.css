@@ -36,14 +36,16 @@ li.product a.added_to_cart,
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
 div#search-form form.search-form input[type="submit"]:hover,
 .relia-callout a.relia-button,
-#relia-contact-form input.relia-button
+#relia-contact-form input.relia-button,
+.woocommerce button[type="submit"] 
 {
     color: #9f6eea;
 }
 
 .woocommerce input[type="submit"],
 .woocommerce button.button,
-nav.woocommerce-breadcrumb a {
+nav.woocommerce-breadcrumb a,
+.woocommerce-page ul.products li.product a.button:hover {
     color: #9f6eea !important;
 }
 
@@ -89,7 +91,8 @@ h3.contact-form-heading
 
 ul.wc-tabs li.active,
 .woocommerce button.button:hover,
-.woocommerce input[type="submit"]:hover {
+.woocommerce input[type="submit"]:hover,
+.woocommerce button[type="submit"]:hover {
     background-color: #9f6eea !important;
 }
 
@@ -114,7 +117,10 @@ aside.widget.woocommerce a.button,
 div#search-form form.search-form input[type="submit"]:hover,
 p.form-submit input:hover, 
 a.button.product_type_variable:hover,
-a.button.add_to_cart_button:hover {
+a.button.add_to_cart_button:hover,
+.woocommerce-page ul.products li.product a.button:hover,
+.woocommerce-page ul.products li.product .product-content,
+.woocommerce button[type="submit"]  {
     border-color: #9f6eea;
 }
 
@@ -122,7 +128,8 @@ a.button.add_to_cart_button:hover {
     border: 2px solid #9f6eea;
 }
 
-.woocommerce input[type="submit"] {
+.woocommerce input[type="submit"],
+.woocommerce-page ul.products li.product a.button:hover {
     border: 2px solid #9f6eea !important;
 }
 

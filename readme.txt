@@ -5,7 +5,7 @@ Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-
 
 Requires at least: 4.6
 Tested up to: 4.9.2
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,10 @@ relia includes support for Infinite Scroll in Jetpack, as well as Our Team Showc
 * Improved blog pagination and ensured it only shows when necessary
 * Fixed UI bug on WC shop pages that was displaying a count next to product categories
 * Added responsiveness font-size change to Jumbotron text on mobile devices
+
+= 1.2.0 - February 9 2018 =
+* Updated all WooCommerce template overrides to newer template format
+* Subtle enhancements to WooCommerce shop styling (button styles, typography) 
 
 == Credits ==
 
